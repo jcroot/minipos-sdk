@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Store</string>
+
+    <string name="bt_enabled">Bluetooth habilitado, presione boton para conectar</string>
+    <string name="bt_not_connected">No tienes bluetooth conectado</string>
+    <string name="missing_device">Dispositivo desconocido</string>
+
+    <string name="wait_dialog_title">Aguarde! Esto puede tomar un tiempo.</string>
+    <string name="swipe_card_title">Favor deslice o inserte tarjeta.</string>
+    <string name="btn_connect_label">Conectar dispositivo</string>
+    <string name="btn_charge_label">Cobrar Gs. 1</string>
+    <string name="btn_charge_disconnect">Desconectar dispositivo</string>
+
+    <string name="input_cvv_title">Ingrese CVV</string>
+    <string name="btn_continue_title">Continuar</string>
+
+    <string name="email_success">Email enviado!</string>
+    <string name="sms_success">SMS enviado!</string>
+
+    <!-- error -->
+    <string name="err_not_authorized">Debe iniciar de nuevo sesión</string>
+    <string name="err_device_not_authorized">Dispositivo no autorizado</string>
+
+</resources>
