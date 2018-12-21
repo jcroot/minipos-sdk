@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements MposUi.OnDeviceLi
         MposUi.initialize(DeviceFactory.DeviceMode.MIURA,
                 BuildConfig.MERCHANT_ACCOUNT,
                 BuildConfig.MERCHANT_KEY,
-                "+595971500500",
+                BuildConfig.MERCHANT_PHONE,
                 MainActivity.this);
     }
 

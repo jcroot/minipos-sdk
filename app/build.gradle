@@ -12,6 +12,7 @@ android {
 
         buildConfigField("String", "MERCHANT_ACCOUNT", "\"minipos@email.com\"")
         buildConfigField("String", "MERCHANT_KEY", "\"changeit\"")
+        buildConfigField("String", "MERCHANT_PHONE", "\"09xxxxxxxx\"")
     }
     buildTypes {
         release {
