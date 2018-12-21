@@ -20,6 +20,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "mode"
+
+    productFlavors {
+        develop {
+            dimension "mode"
+            //... do develop stuff
+        }
+        production {
+            dimension "mode"
+            //... do release stuff
+        }
+    }
 }
 
 dependencies {
@@ -31,5 +44,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-jackson:2.5.0'
-    implementation files('libs/sdkminiposcomercios.jar')
+    implementation files('libs/sdkminiposcomercios-debug.jar')
 }
