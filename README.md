@@ -7,8 +7,15 @@ Download
 --------
 
 Gradle:
+
+Testing
 ```groovy
-    implementation files('libs/sdkminiposcomercios.jar')
+    implementation files('libs/sdkminiposcomercios-debug.jar')
+```
+
+Release
+```groovy
+    implementation files('libs/sdkminiposcomercios-release.jar')
 ```
 
 Dependencias
