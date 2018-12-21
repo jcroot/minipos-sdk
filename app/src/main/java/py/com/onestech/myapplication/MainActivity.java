@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements MposUi.OnDeviceLi
         TextView textView = findViewById(R.id.main_text);
         textView.setText(textView.getText() + " OK");
         mButtonCharge.setEnabled(true);
-        mButtonConnect.setText(textView.getText());
+        mButtonConnect.setText(getString(R.string.btn_connect_label));
         mButtonConnect.setEnabled(false);
         mButtonDisconnect = findViewById(R.id.btn_disconnect);
         mButtonDisconnect.setEnabled(true);
