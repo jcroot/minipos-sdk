@@ -109,8 +109,15 @@ Nota: Los datos del Config.MERCHANT_LOGIN, Config.MERCHANT_KEY y phoneNumber son
 
 Iniciamos el cobro con la siguiente línea
 ```java
-  MposUi.getInstance().createTransaction(this, 25000);
+    MposUi.getInstance().createTransaction(this, 25000);
 ```
+
+Generar el apk en modo debug y buscar el archivo para copiar al dispositivo para su instalación, en
+
+```
+    myapp/app/build/outputs/apk/app-debug.apk
+       
+``` 
 
 License
 -------
