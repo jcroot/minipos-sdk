@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Store</string>
+    <string name="app_name">MiniPOS-Demo</string>
 
     <string name="bt_enabled">Bluetooth habilitado, presione boton para conectar</string>
     <string name="bt_not_connected">No tienes bluetooth conectado</string>
